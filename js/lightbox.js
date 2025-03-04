@@ -12,6 +12,10 @@
  * @preserve
  */
 
+
+
+
+
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -476,6 +480,8 @@
       }
     }
   };
+
+
 
   // Display caption, image number, and closing button.
   Lightbox.prototype.updateDetails = function() {
