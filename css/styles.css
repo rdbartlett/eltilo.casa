@@ -21,13 +21,13 @@ section {
     margin-bottom: 40px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #333;
     font-weight: bold;
 }
 
 h2{
-    size: 140%;
+    font-size: 130%;
     margin-bottom: 1em;
 }
 
@@ -44,6 +44,17 @@ p {
 
 .welcome-image{
     margin-bottom: 1em;
+  width: 100%;
+  aspect-ratio: 3 / 2; /* adjust to taste */
+  overflow: hidden;
+  position: relative;
+}
+
+.welcome-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; /* or top / bottom / left / right */
 }
 
 /* Gallery styles */
@@ -85,3 +96,27 @@ iframe {
 .cstrEmbed a{
     color: #fff;
 }
+
+
+.ct-calendar {
+width: 100%;
+border-collapse: collapse;
+margin: 1em 0;
+}
+
+.ct-calendar th {
+text-align: left;
+padding: 8px;
+border-bottom: 1px solid #ccc;
+font-weight: bold;
+}
+.ct-calendar td {
+text-align: left;
+padding: 8px;
+}
+hr{
+    margin: 2em 0;
+}
+
+
+
