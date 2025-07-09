@@ -4,8 +4,8 @@ body {
     line-height: 1.2;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ebeddf;
+    color: #002f31;
 }
 
 .container {
@@ -22,18 +22,26 @@ section {
 }
 
 h1, h2, h3 {
-    color: #333;
-    font-weight: bold;
+    font-family: 'Coachella';
+
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0.2em 0;
 }
 
 h2{
-    font-size: 130%;
-    margin-bottom: 1em;
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
 
 p {
-    color: #666;
     margin-bottom: 1em;
+}
+
+a{
+    color: #b500a6;
 }
 
 /* Image styles */
@@ -119,4 +127,13 @@ hr{
 }
 
 
+
+@font-face {
+    font-family: 'Coachella';
+    src: url('fonts/MADECoachella.woff2') format('woff2'),
+        url('fonts/MADECoachella.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
